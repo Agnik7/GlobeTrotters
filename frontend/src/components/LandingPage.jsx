@@ -12,7 +12,7 @@ export default function LandingPage() {
   return (
     <div>
       <nav className="navbar bg-[#780000] min-w-full flex flex-col px-[1rem] pb-[1.5rem] items-center justify-between sm:flex-row sm:pb-0">
-        <h1 className="text-slate-200 text-[2rem] m-[1rem] font-bold">GlobeTrotter</h1>
+        <h1 className="text-slate-200 text-[2rem] m-[1rem] font-bold">GlobeTrotters</h1>
         <div className="tabs text-center text-[1.2rem]">
             <ul className="list w-full flex items-center justify-between sm:flex-row sm:w-[25rem] md:w-[30rem]">
                 <li className="list-items m-1 text-slate-200 hover:text-slate-400"><a href="#home">Home</a></li>
@@ -26,7 +26,7 @@ export default function LandingPage() {
         {/* <!-- Home Section --> */}
         <section className="home flex flex-col-reverse px-[1rem] justify-center items-center sm:flex-row sm:justify-between md:justify evenly" id="home">
             <div className="text-section">
-                <h2 className="text-[3rem] font-bold">Welcome to GlobeTrotter!</h2>
+                <h2 className="text-[3rem] font-bold">Welcome to GlobeTrotters!</h2>
                 <p  className="text-[1.3rem]">Enter your paradise with a bang!!</p>
                 <p className="text-[1.3rem]">Book the tickets to your dream destination now!!!</p>
                 <button className="bg-[#669bbc] text-black hover:bg-[#003049] hover:text-slate-50 text-[1.2rem] font-medium px-[2rem] py-1 rounded-full my-[1rem]" onClick={handleClick}>
